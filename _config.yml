@@ -6,11 +6,11 @@ baseurl:            ""
 url:                "https://emezzi.github.io"
 
 # Social Profiles
-twitter_username:   SBootstrap
-github_username:    StartBootstrap
-facebook_username:  Emanuele Mezzi
-instagram_username:  
-linkedin_username:
+twitter_username:   ""
+github_username:    EMezzi
+facebook_username:  ""
+instagram_username: emanuelemezzi
+linkedin_username:  emanuelemezzi
 
 # Add your google-analytics ID here to activate google analytics
 google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
