@@ -9,7 +9,7 @@
         <ul class="list-inline text-center">
           {% if site.email %}
           <li class="list-inline-item">
-            <a href="mailto:mezziemanuele@gmail.com">
+            <a href="mailto:{{ site.email | encode_email }}">
               <span class="fa-stack fa-lg">
                 <i class="fas fa-circle fa-stack-2x"></i>
                 <i class="far fa-envelope fa-stack-1x fa-inverse"></i>
@@ -19,7 +19,7 @@
           {% endif %}
           {% if site.linkedin_username %}
           <li class="list-inline-item">
-            <a href="https://www.linkedin.com/in/emanuele-mezzi">
+            <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}">
               <span class="fa-stack fa-lg">
                 <i class="fas fa-circle fa-stack-2x"></i>
                 <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
@@ -29,7 +29,7 @@
           {% endif %}
           {% if site.github_username %}
           <li class="list-inline-item">
-            <a href="https://github.com/EMezzi">
+            <a href="https://github.com/{{ site.github_username }}">
               <span class="fa-stack fa-lg">
                 <i class="fas fa-circle fa-stack-2x"></i>
                 <i class="fab fa-github fa-stack-1x fa-inverse"></i>
@@ -39,7 +39,7 @@
           {% endif %}
           {% if site.instagram_username %}
           <li class="list-inline-item">
-            <a href="https://instagram.com/emanuelemezzi">
+            <a href="https://www.instagram.com/emanuelemezzi/">
               <span class="fa-stack fa-lg">
                 <i class="fas fa-circle fa-stack-2x"></i>
                 <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
